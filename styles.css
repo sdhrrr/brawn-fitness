@@ -1,0 +1,641 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #171a26;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    column-gap: 20vw;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-title {
+    font-family: 'Spectral', serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    /* color: rgb(155, 15, 43); */
+} 
+
+.navbar-fr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.navbar-fr a {
+    font-weight: lighter;
+    text-decoration: none;
+    color: silver;
+}
+
+.navbar-fr a:hover {
+    border-bottom: 1px solid grey;
+}
+
+.get-app {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+    padding: 5px 20px;
+}
+
+
+.page1-header {
+    height: 100vh;
+    width: 98.9vw;
+    background-image: url(/images/better-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page1-sta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    border-bottom: 2px solid white;
+    /* border: 2px solid red; */
+}
+
+.page1-sta h1 {
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    color: grey;
+}
+
+.page1-sta span {
+    font-size: 180px;
+    font-family: 'Inter', sans-serif;
+    color: silver;
+}
+
+.page1-sub {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding: 20px 0px 0px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.page1-btn {
+    padding: 50px 0px 0px 0px;
+}
+
+.page1-btn a {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #F06055;
+    text-decoration: none;
+    /* border: 2px solid white; */
+    padding: 10px;
+    border-radius: 8px;
+    word-spacing: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+
+.page1-btn a:hover {
+    transition: ease-out 0.3s;
+    color: black;
+}
+
+.page2 {
+    background-color: #171a26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3vw;
+    padding: 70px;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    width: 22vw;
+    background-color: #23262e;
+    /* padding: 20px; */
+    font-family: 'Inter', sans-serif;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.pass:hover {
+    transition: ease 0.4s;
+    background-color: #2f333f;
+}
+
+.passn-1{
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column;
+
+}
+
+.passn-1 h3 {
+    font-size: 22px;
+    /* padding: 20px; */
+    color: silver;
+}
+
+.passn-1 img {
+    padding: 20px;
+    width: 130px;
+}
+
+.pass1 .passn-1 img {
+    width: 160px;
+}
+
+.passn-2 p{
+    padding: 10px;
+    font-size: 14px;
+    color: silver;
+    text-align: center;
+}
+
+/* ------ Travelogue ------ */
+
+.travelogue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px 20px 0px;
+    background-color: #171a26;
+}
+
+.travelogue-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 30px 0px;
+}
+
+.travelogue-text h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 70px;
+    color: white;
+    background-image: linear-gradient(to bottom,
+            #171a26 0%,
+            #171a26 60%,
+            rgb(128, 128, 251) 60%,
+            rgb(128, 128, 251) 90%,
+            #171a26 90%,
+            #171a26 100%);
+    width: 700px;
+    text-align: center;
+}
+
+.travelogue-text p {
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 20px 0px 20px 0px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.travelogue-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.travelogue-image div img {
+    padding: 60px 0px 0px 200px;
+    z-index: -1;
+    height: 70vh;
+}
+
+.travelogue-example {
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 33vh;
+    width: 23vw;
+    background-color: #2f333f;
+    position:absolute;
+    margin: 50px 550px 0px 0px ;
+}
+
+.travelogue-example p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+    font-weight: bold;
+}
+
+.travelogue-example h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    padding: 0px 0px 0px 20px;
+}
+
+.travelogue-example a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 0px 20px 20px;
+    text-decoration: underline;
+}
+
+
+.car-book-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 220px;
+    background-color: #23262e;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.car-book-btn:hover {
+    background-color: #2f333f;
+    transition: ease 0.4s;
+    border: 1px solid grey;
+}
+
+.travelogue-image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travelogue-image1 div img {
+    padding: 60px 80px 0px 0px;
+    z-index: -1;
+    height: 78vh;
+}
+
+.travelogue-example1 {
+    color: silver;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 33vh;
+    width: 23vw;
+    background-color: #2f333f;
+    position:absolute;
+    margin: 50px -750px 0px 0px ;
+}
+
+.travelogue-example1 p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    padding: 10px 0px 0px 20px;
+    font-weight: bold;
+}
+
+.travelogue-example1 h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    padding: 0px 0px 0px 20px;
+}
+
+.travelogue-example1 a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 0px 20px 20px;
+    text-decoration: underline;
+}
+
+
+.why-dawn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 0px 0px;
+    column-gap: 8vw;
+    margin-top: 50px;
+}
+
+.why-text {
+    background-color: #2f333f;
+    width: 40vw;
+    color: silver;
+    padding: 20px 0px 0px 30px;
+    border-radius: 10px;
+}
+
+.why-text h4 {
+    font-family: 'Inter', serif;
+    font-size: 60px;
+    padding: 10px 0px 20px 0px;
+}
+
+.why-text h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    padding: 40px 0px 10px 0px;
+}
+
+.why-text h6 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    padding: 0px 0px 20px 0px;
+}
+
+.why-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14;
+}
+
+.why-image img {
+    height: 340px;
+    width: 460px;
+    box-shadow: 20px -20px #2f333f;
+}
+
+.last-why-p {
+    padding: 0px 0px 60px 0px;
+}
+
+
+
+.reviews-section {
+    background-color: #171a26;
+    /* width: 90vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.recent-reviews-h4 {
+    padding: 10px 0px 0px 0px;
+    color: white;
+}
+
+.recent-reviews-h4 h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    border-bottom: 3px solid silver;
+}
+
+.review-card-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    padding-top: 50px;
+}
+
+.review-card {
+    color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    width: 23vw;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #2f333f;
+}
+.people img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+}
+
+.people {
+    padding: 30px 0px 0px 30px;
+}
+
+.stars span {
+    color: silver;
+    padding: 3px;
+}
+
+.stars {
+    padding: 30px 0px 10px 0px;
+}
+
+.car-model-text {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+}
+
+.reviews {
+    padding: 0px 20px 0px 0px;
+}
+
+.reviews-p {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    line-height: 25px;
+    height: 130px;
+    padding: 8px 0px 0px 0px;
+}
+
+.reviews-p span {
+    font-weight: bold;
+}
+
+.people-name-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.review-date {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171a26;
+    height: 70vh;
+    color: silver;
+}
+
+footer a:visited {
+    color: #593cfb;
+}
+
+.logo-foot {
+    height: 50vh;
+    padding: 0px 60px 0px 0px;
+}
+
+.logo-foot h1 {
+    font-family: 'Inter', serif;
+    font-size: 150px;
+    font-weight: 500;
+    border-bottom: 3px solid grey;
+}
+
+.mail-p {
+    padding: 25px 0px 10px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.copy-right-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.terms-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+    column-gap: 10px;
+}
+
+.terms-footer a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: silver;
+    font-size: 14px;
+}
+
+.terms-footer a:visited {
+    color: silver;
+}
+
+.terms-footer a:hover {
+    text-decoration: underline;
+}
+
+.terms-footer p {
+    padding: 0px 20px 0px 0px;
+}
+
+.explore {
+    width: 15vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    border-bottom: 2px solid grey;
+}
+
+.explore li {
+    list-style: none;
+    padding: 6px;
+}
+
+.explore li a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: silver;
+}
+
+.explore li a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------- */
+
+.social-media li {
+    list-style: none;
+}
+
+.faa {
+    padding: 20px;
+    font-size: 30px;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    background-color: #171a26;
+    color: #2f333f;
+}
+
+.faa:visited {
+    color: #2f333f;
+}
+
+.faa:hover {
+    color: silver;
+    transition: ease 0.3s;
+    border-bottom: 2px solid grey;
+}
+
+.store-handles-ul {
+    padding: 20px 0px 0px 0px;
+}
+
+.store-handles-ul:hover {
+    padding: 18px 0px 0px 0px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
